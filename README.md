@@ -1,5 +1,7 @@
 # `address-parser`
 
+[![iota-address-parser](https://img.shields.io/badge/iota--address--parser-v0.1.2-informational)](https://github.com/maxwellmattryan/address-parser)
+[![downloads](https://img.shields.io/npm/dm/iota-address-parser)](https://npmjs.com/package/iota-address-parser)
 [![ci](https://github.com/maxwellmattryan/address-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/maxwellmattryan/address-parser/actions/workflows/ci.yml)
 
 This library adheres to [TIP-0031](https://github.com/iotaledger/tips/blob/main/tips/TIP-0031/tip-0031.md), detailing specifics around Bech32 address formats with the IOTA ecosystem.
