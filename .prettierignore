@@ -4,7 +4,6 @@
 
 # Output by various Stardust tools
 **/build/
-!**/src/build/
 **/temp/
 **/out/
 
@@ -141,3 +140,8 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# Added by cargo
+
+/target

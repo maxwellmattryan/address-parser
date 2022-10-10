@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "experimentalDecorators": true,
+        "lib": ["es6"],
+        "moduleResolution": "node",
+        "types": ["node"]
+    },
+    "include": ["**/src"],
+    "exclude": ["**/node_modules", "**/tests"]
+}
