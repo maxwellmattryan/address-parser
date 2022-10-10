@@ -1,4 +1,4 @@
-name: lint-and-format
+name: ci
 
 on:
   pull_request:
@@ -39,3 +39,18 @@ jobs:
 
       - name: Linting
         run: yarn lint:check
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Install Dependencies
+        run: yarn
+
+      - name: Test
+        run: yarn test
