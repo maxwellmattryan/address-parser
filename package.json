@@ -1,6 +1,6 @@
 {
     "name": "iota-address-parser",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "A tool to parse IOTA- and Shimmer-based, Bech32-encoded addresses",
     "author": "Matthew Maxwell <maxwellmattryan@gmail.com>",
     "repository": "git@github.com:maxwellmattryan/stardust-tools.git",
@@ -32,7 +32,6 @@
         "lint:check": "eslint --cache --debug **/*.{ts,js}",
         "lint:fix": "eslint --cache --fix **/*.{ts,js}",
         "prepare": "husky install",
-        "publish": "npm publish",
         "sandbox": "ts-node src/sandbox.ts",
         "start": "yarn clean && rollup -c -w",
         "test": "jest"
