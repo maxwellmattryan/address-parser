@@ -2,7 +2,17 @@
 
 This library adheres to [TIP-0031](https://github.com/iotaledger/tips/blob/main/tips/TIP-0031/tip-0031.md), detailing specifics around Bech32 address formats with the IOTA ecosystem.
 
-## How to Use
+## Installation
+
+```bash
+# NPM
+npm install iota-address-parser
+
+# Yarn
+yarn add iota-address-parser
+```
+
+## Usage
 
 ```typescript 
 const parser = new AddressParser()

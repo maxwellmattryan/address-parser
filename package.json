@@ -32,6 +32,7 @@
         "lint:check": "eslint --cache --debug **/*.{ts,js}",
         "lint:fix": "eslint --cache --fix **/*.{ts,js}",
         "prepare": "husky install",
+        "publish": "npm publish",
         "sandbox": "ts-node src/sandbox.ts",
         "start": "yarn clean && rollup -c -w",
         "test": "jest"
