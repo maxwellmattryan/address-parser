@@ -1,5 +1,7 @@
 # `address-parser`
 
+[![ci](https://github.com/maxwellmattryan/address-parser/actions/workflows/ci.yml/badge.svg)](https://github.com/maxwellmattryan/address-parser/actions/workflows/ci.yml)
+
 This library adheres to [TIP-0031](https://github.com/iotaledger/tips/blob/main/tips/TIP-0031/tip-0031.md), detailing specifics around Bech32 address formats with the IOTA ecosystem.
 
 ## Installation
